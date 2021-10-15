@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+/*legumes.html*/
+.presentation1{
+    text-align: center;
+}
+.potagerh11{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color:  #8bc34a;
+}
+.bodylegumes{
+    background-color:#FEFEE2;
+    margin: 0px;
+    padding: 0px;
+}
+
+.h2potager{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color:  #8bc34a;
+}
+
+.legumeslien1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: red;
+    text-decoration: none;
+}
+    
+
+.potagerh31,.potagerh32,.potagerh33,.potagerh34,.potagerh35,.potagerh36,.potagerh37{
+    display: flex; 
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
+    color:  #8bc34a;
+}
+
+.pourquoi1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color:  #8bc34a;
+}
+
+.plegumes{
+    text-align: center;
+    width: 50%;
+    padding-left: 25%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color:  #8bc34a;
+    font-size: 18px;
+}
+
+.video1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#potagerbalcon{
+    text-align:center;
+    margin:auto;
+    display:flex;
+}
+
+.kitpota{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.kitpotager2{
+    display: flex;
+    justify-content: center;
+}
+
+.h1legumes{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color:  #8bc34a;
+}
+/*fin legumes.html */
+
+/*NAV BAR */
+html, body{
+    margin: 0;padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inner{
+    width: 80%;
+    margin: auto;
+}
+
+.menu{
+    background:#8BC34A;
+    width: 100%;
+    height: 66px;
+    line-height: 66%;
+}
+
+.m-left{
+    float: left;
+    margin-top: 2%;
+}
+
+.logo{
+    margin: 0;padding: 0;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-top: 2%;
+}
+
+.m-right{
+    float:right ;
+    margin-top: 2%;
+
+}
+
+.m-link{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding:0; margin: 15px;
+    margin-top: 2%;
+}
+/* FIN NAV */
+
+/*fleurs.html*/
+
+.h1fleurs{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color:  black;
+}
+
+.h2fleurs{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color:  black;
+}
+
+.pfleurs{
+    text-align: center;
+    width: 50%;
+    padding-left: 25%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color:  black;
+    font-size: 18px;
+}
+
+/* background nav a garde */
+.backh{
+    background-color: #000000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/street-with-flowers-wallpaper-preview.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 1em;
+  text-align: center;
+}
+
+.hbfleurs{
+    font-weight:900;
+}
+
+.pville{
+    text-align: center;
+    width: 50%;
+    padding-left: 25%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color:  black;
+    font-size: 18px;
+}
+
+.h2ville{
+    text-align: center;
+    color: black;
+    font-family:'Poppins', sans-serif;
+}
+
+.imgverts{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container{
+    height: 500px;
+    width: 800px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 0.5px;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.transition-image{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.transition-image:hover{
+    opacity: 1;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*FLEURS HTML FIN */
+
+/* FOOTER */
+.footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    box-sizing: border-box;
+    background: #8BC34A;
+    color: #333;
+    margin-top: 10%;
+}
+
+.contenu-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+.bloc-footer-service{
+    width: 25%;
+    margin: 0 30px;
+}
+
+.h3-nos-services{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.h3-restons{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.h3-nos-reseaux{
+    font-size: 15px;
+    padding-bottom: 10px;
+
+
+}
+
+.bloc-footer-service{
+    padding: 5px 0;
+}
+
+.liste-reseaux img{
+
+    width: 20px;
+    margin: 10px 10px;
+}
+
+.liste-media{
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.liste-reseaux{
+    margin-top: -8%;
+}
+
+.liste-service{
+    list-style: none;
+    text-decoration: none;
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+/*fin footer */
+
+.comment-pourquoi{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.img-a{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    size: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ARBUSTES*/
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+tr:hover {
+    background-color: #8bc34a;}
+
+.section-arbustes{
+    display: flex;
+    justify-content: center;
+}
+
+.h1-arbustes{
+    text-align: center;
+    color: #8bc34a;
+}
+
+/*dédé*/
+.comment-pourquoi{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.img-a{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    size: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-b{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.img-c{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.article-a{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.plantes-urbaine-info{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.image-urbain-a{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.image-plante-b{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.image-urbaine-c{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.plantes-urbaine-info-b{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.image-urbaine-d{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.plantes-urbaine-info-c{
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+/* presentation */
+
+
+.h1pre{
+    display: flex;
+    justify-content: center;
+}
+.h2pre{
+    display: flex;
+    justify-content: center;  
+}
+
+.Fleur{
+
+    display: flex;
+    justify-content: center;
+    flex-basis: 1; 
+}
+
+.Legume{
+     display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 2%;
+}
+    
+
+.Plante{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.Arbuste{
+    display: flex;
+    justify-content: center;
+}
+
+
+.img1{
+    padding-top: 4%;
+    margin-top: 4%;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.pplantes, .h4pplantes{
+    text-align: center;
+}
